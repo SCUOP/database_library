@@ -1,0 +1,16 @@
+server:
+    port: 6660
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://db.leafqycc.top:25423/WDLDB?serverTimezone=UTC
+    username: wdl
+    password: "a_N&wTT6?]Wf8Ns"
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  # configuration:
+  #   log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
